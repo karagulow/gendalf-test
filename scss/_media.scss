@@ -1,0 +1,305 @@
+@media (max-width: 1250px) {
+  .header {
+    .nav {
+      &Row {
+        &__list {
+          column-gap: 20px;
+        }
+
+        &__btn {
+          background-color: #fff;
+          border-radius: 5px;
+          width: 255px;
+          height: 40px;
+
+          color: #00b7ec;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .header {
+    .nav {
+      display: none;
+    }
+
+    .mobile_nav {
+      display: block;
+      padding: 9px 0;
+
+      &List {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &__item {
+          &Logo {
+            width: 74px;
+            height: 83px;
+          }
+        }
+      }
+    }
+
+    .content {
+      height: 388px;
+      background-image: linear-gradient(
+          rgba(0, 47, 61, 0.77),
+          rgba(0, 47, 61, 0.77)
+        ),
+        url(../img/image-2.jpeg);
+
+      &Block {
+        &__title {
+          font-size: 24px;
+          max-width: 100%;
+        }
+
+        &__text {
+          font-size: 16px;
+          max-width: 500px;
+          margin-bottom: 42px;
+        }
+
+        &__btns {
+          flex-direction: column;
+          row-gap: 10px;
+          align-items: center;
+
+          &First {
+            width: 295px;
+          }
+
+          &Second {
+            width: 295px;
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    .about {
+      padding: 45px 0 30px;
+
+      &Block {
+        &__content {
+          display: flex;
+          flex-direction: column;
+          row-gap: 0px;
+          min-width: 100%;
+
+          &Title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
+          }
+
+          &Text {
+            font-size: 16px;
+            margin-bottom: 30px;
+          }
+
+          &Btns {
+            flex-direction: column;
+            row-gap: 10px;
+            align-items: center;
+
+            &__first {
+              width: 295px;
+            }
+
+            &__second {
+              width: 295px;
+            }
+          }
+        }
+
+        &__img {
+          display: none;
+        }
+      }
+    }
+
+    .values {
+      height: 451px;
+      overflow-x: hidden;
+
+      &Block {
+        padding: 23px 0 30px;
+
+        &__title {
+          margin: 0 auto;
+          font-size: 28px;
+          max-width: 350px;
+          text-align: center;
+        }
+
+        &__list {
+          top: 120px;
+          column-gap: 59px;
+
+          &Item {
+            max-width: 235px;
+            row-gap: 5px;
+
+            &__img {
+              width: 211px;
+              height: 150px;
+            }
+
+            &__title {
+              font-size: 18px;
+            }
+
+            &__text {
+              font-size: 16px;
+            }
+
+            &__number {
+              top: 13px;
+
+              img {
+                min-width: 63px;
+                min-height: 70px;
+                max-width: 63px;
+                max-height: 70px;
+              }
+
+              p {
+                font-size: 46px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .evolution {
+      &Block {
+        row-gap: 10px;
+        padding: 35px 0 22px;
+
+        &__title {
+          text-align: center;
+          font-size: 28px;
+        }
+
+        &__content {
+          flex-direction: column;
+          row-gap: 22px;
+
+          &Text {
+            font-size: 16px;
+            max-width: 100%;
+          }
+
+          &Video {
+            width: 100%;
+            height: auto;
+
+            &__play {
+              width: 60px;
+              height: 60px;
+              cursor: pointer;
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+
+    .practice {
+      height: 248px;
+
+      &Block {
+        row-gap: 21px;
+
+        &__title {
+          font-size: 28px;
+          font-weight: 300;
+        }
+
+        &__btn {
+          width: 295px;
+        }
+      }
+    }
+
+    .answers {
+      background: linear-gradient(
+        163deg,
+        rgba(40, 228, 115, 0.16) 11.27%,
+        rgba(70, 205, 22, 0.14) 35.82%,
+        rgba(39, 221, 209, 0.39) 57.4%,
+        rgba(5, 176, 213, 0.32) 82.7%
+      );
+      padding: 60px 0;
+
+      &Block {
+        &__accordion {
+          row-gap: 21px;
+
+          &Header {
+            column-gap: 7px;
+          }
+        }
+
+        &__img {
+          display: none;
+        }
+      }
+    }
+
+    .sign_up {
+      padding: 18px 0;
+
+      &Form {
+        padding: 24px 30px 18px;
+
+        &__title {
+          font-size: 28px;
+          margin-bottom: 21px;
+        }
+
+        &__input {
+          padding: 13px 19px 12px;
+        }
+
+        &__category {
+          &Text {
+            margin: 15px 0 6px;
+            font-size: 16px;
+          }
+
+          &List {
+            row-gap: 6px;
+            margin-bottom: 18px;
+
+            &__item {
+              &Text {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+
+        &__text {
+          padding: 12px 18px;
+          margin-bottom: 21px;
+
+          height: 50px;
+        }
+
+        &__btns {
+          display: flex;
+          flex-direction: column;
+          row-gap: 6px;
+        }
+      }
+    }
+  }
+}
